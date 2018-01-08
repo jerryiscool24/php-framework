@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e6e6e6;
+}
+h1.header {
+	text-align: center;
+	font-family: 
+}
+table {
+	
+	max-width: 100%;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+table td {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+table th {
+	background: #2f3030;
+	color: white;
+}
+
+table tr:hover td {
+	color: #000000;
+	background: #e5e5e5;
+}
+table td, th {
+	text-align: left;
+	padding: 5px 10px;
+}
+table tr:nth-child(even)
+{
+	background: #c1c1c1;
+}
+table tr:nth-child(odd)
+{
+	background: #7c7c7c;
+}
+.row-id {
+	width: 10%;
+}
+.row-name {
+	width: 25%;
+}
+.row-email {
+	width: 30%;
+}
+.row-create-at {
+	width: 20%;
+}
+.row-actions {
+	width: 15%;
+}
+#content {
+	width: 850px;
+	margin: 0 auto;
+}
+
+
